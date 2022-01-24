@@ -1,6 +1,5 @@
 <template>
      <div class="container is-fullhd">
-    <!--Hero-->
     <section>
       <div class="is-flex is-flex-direction-column is-align-items-center first-title">
         <h1 class="title is-1">
@@ -18,15 +17,6 @@
           Subtitle 4
         </h4>
       </div>
-    </section>
-    <!--Services-->
-    <section>
-      <h2 class="title is-2">
-        Apps mobile
-      </h2>
-      <h5 class="subtitle is-5">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem suscipit, quo laborum fugiat repudiandae veritatis non! Eos aliquid quo beatae dicta facere voluptatibus suscipit quisquam natus mollitia possimus, culpa ratione?
-      </h5>
     </section>
   </div>
 </template>

@@ -1,5 +1,8 @@
 <template>
-  <Hero />
+  <div>
+      <Hero />
+      <Services />
+  </div>
 </template>
 
 <script lang="ts">
