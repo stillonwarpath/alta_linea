@@ -2,7 +2,7 @@
   <div class="container is-fullhd">
     <!--Hero-->
     <section>
-      <div class="is-flex is-flex-direction-column is-align-items-center">
+      <div class="is-flex is-flex-direction-column is-align-items-center first-title">
         <h1 class="title is-1">
           Title 1
         </h1>
@@ -10,7 +10,7 @@
           Subtitle 3
         </h3>
       </div>
-      <div class="is-flex is-flex-direction-column is-align-items-center">
+      <div class="is-flex is-flex-direction-column is-align-items-center second-title">
         <h2 class="title is-2">
           Title 2
         </h2>
@@ -40,5 +40,10 @@ export default Vue.extend({
 })
 </script>
 <style lang="scss" scoped>
-
+  .first-title {
+    margin-top: 4rem;
+  }
+  .second-title {
+    margin-top: 6rem;
+  }
 </style>
