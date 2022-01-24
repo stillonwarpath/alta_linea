@@ -2,6 +2,7 @@
   <div>
       <Hero />
       <Services />
+      <CtaOne />
   </div>
 </template>
 
