@@ -21,16 +21,24 @@
 <style lang="scss" scoped>
     @import '~bulma/sass/utilities/mixins';
 
-    section {
-        flex-direction: column;
-        margin-top: 6rem;
-        padding-left: 1rem;
-        padding-right: 1rem;
+     section {
+            flex-direction: column;
+        }
+
+    @include mobile {
+        section {
+            margin-top: 6rem;
+            padding-left: 1rem;
+            padding-right: 1rem;
+        }
     }
+
+ 
 
     @include desktop {
         section {
             align-items: center;
+            margin-top: 7rem;
         }
     }
 

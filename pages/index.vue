@@ -3,6 +3,7 @@
       <Hero />
       <Services />
       <CtaOne />
+      <Projects />
   </div>
 </template>
 

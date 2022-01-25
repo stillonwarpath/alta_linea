@@ -37,13 +37,21 @@
     
     @import '~bulma/sass/utilities/mixins';
 
-    .services {
-        margin-top: 4rem;
-        padding-left: 1rem;
-        padding-right: 1rem;
+    @include mobile {
+        .services {
+            margin-top: 4rem;
+            padding-left: 1rem;
+            padding-right: 1rem;
+        }
+
     }
 
     @include desktop {
+
+        .services {
+            margin-top: 6rem;
+        }
+
         .web-app {
             flex-direction: row-reverse;
         }
