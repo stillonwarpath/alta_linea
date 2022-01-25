@@ -1,5 +1,5 @@
 <template>
-    <div class="column">
+    <div class="column is-one-third">
         <b-image
             src="https://picsum.photos/id/358/314"
             alt="Team member image">
