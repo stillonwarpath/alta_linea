@@ -4,6 +4,7 @@
       <Services />
       <CtaOne />
       <Projects />
+      <Team />
   </div>
 </template>
 
