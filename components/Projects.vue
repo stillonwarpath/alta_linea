@@ -5,7 +5,17 @@
         </h2>
         <div class="columns is-multiline">
             <div class="column is-half-desktop">
-                Proyecto 1
+                <!--TODO: Add image ratio -->
+                <b-image
+                    src="https://picsum.photos/id/358/314"
+                    alt="Project image">
+                </b-image>
+                <h6 class="subtitle is-6">
+                    Proyecto 1
+                </h6>
+                <h5 class="subtitle is-5">
+                    Breve descripción
+                </h5>
             </div>
             <div class="column is-half-desktop">
                 Proyecto 2
