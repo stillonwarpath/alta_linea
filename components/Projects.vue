@@ -4,35 +4,48 @@
             Proyectos
         </h2>
         <div class="columns is-multiline">
-            <div class="column is-half-desktop">
-                <!--TODO: Add image ratio -->
-                <b-image
-                    src="https://picsum.photos/id/358/314"
-                    alt="Project image">
-                </b-image>
-                <h6 class="subtitle is-6">
-                    Proyecto 1
-                </h6>
-                <h5 class="subtitle is-5">
-                    Breve descripción
-                </h5>
-            </div>
-            <div class="column is-half-desktop">
-                Proyecto 2
-            </div>
-            <div class="column is-half-desktop">
-                Proyecto 3
-            </div>
-            <div class="column is-half-desktop">
-                Proyecto 4
-            </div>
+            <Project
+                v-for="project in projects"
+                :key="project.id"
+                :project="project"         
+             />
         </div>
     </section>
 </template>
 
 <script>
+
     export default {
-        
+        data() {
+            return {
+                projects: [
+                    {
+                        id: 1,
+                        name: 'Proyecto 1',
+                        description: 'Breve descripción',
+                        image: 'https://picsum.photos/id/358/314'
+                    },
+                    {
+                        id: 2,
+                        name: 'Proyecto 2',
+                        description: 'Breve descripción',
+                        image: 'https://picsum.photos/id/358/314'
+                    },
+                    {
+                        id: 3,
+                        name: 'Proyecto 3',
+                        description: 'Breve descripción',
+                        image: 'https://picsum.photos/id/358/314'
+                    },
+                    {
+                        id: 4,
+                        name: 'Proyecto 4',
+                        description: 'Breve descripción',
+                        image: 'https://picsum.photos/id/358/314'
+                    }
+                ]
+            }
+        }
     }
 </script>
 
