@@ -2,7 +2,7 @@
     <div class="column is-half-desktop">
         <!--TODO: Add image ratio -->
         <b-image
-            src="https://picsum.photos/id/358/314"
+            :src="project.image"
             alt="Project image">
         </b-image>
         <h6 class="subtitle is-6">
