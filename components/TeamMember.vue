@@ -5,14 +5,14 @@
             alt="Team member image">
         </b-image>
         <h5 class="title is-5">
-            Integrante 1
+            {{ teamMember.name }}
         </h5>
     </div>
 </template>
 
 <script>
     export default {
-        
+        props:['teamMember']
     }
 </script>
 
