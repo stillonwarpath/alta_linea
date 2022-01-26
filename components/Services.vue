@@ -71,7 +71,11 @@
         }
 
         .title-mobile-app, .subtitle-mobile-app {
-             padding-left: 1rem;
+             padding-left: 4rem;
+        }
+
+        .title-web-app, .subtitle-web-app {
+            padding-right: 4rem;
         }
 
         .web-app {
