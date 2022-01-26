@@ -77,5 +77,9 @@
         .web-app {
             flex-direction: row-reverse;
         }
+
+        .columns:last-child {
+            margin-top: 6rem;
+        }
     }
 </style>
