@@ -5,6 +5,7 @@
       <CtaOne />
       <Projects />
       <Team />
+      <Footer />
   </div>
 </template>
 
