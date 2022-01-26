@@ -52,7 +52,7 @@
 <style lang="scss" scoped>
     @import '~bulma/sass/utilities/mixins';
 
-    @include mobile {
+    @include touch {
         .container {
             margin-top: 6rem;
             padding-left: 1rem;
