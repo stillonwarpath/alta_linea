@@ -1,5 +1,5 @@
 <template>
-    <section class="container is-full-hd is-flex">
+    <div class="container is-fullhd is-flex">
         <h2 class="title is-2">
             CTA 1
         </h2>
@@ -9,7 +9,7 @@
         <b-button type="is-primary" rounded>
             Haz contacto
         </b-button>
-    </section>
+    </div>
 </template>
 
 <script>
@@ -21,12 +21,12 @@
 <style lang="scss" scoped>
     @import '~bulma/sass/utilities/mixins';
 
-     section {
+     .container {
             flex-direction: column;
         }
 
-    @include mobile {
-        section {
+    @include touch {
+        .container {
             margin-top: 6rem;
             padding-left: 1rem;
             padding-right: 1rem;
@@ -36,9 +36,11 @@
  
 
     @include desktop {
-        section {
+        .container {
             align-items: center;
             margin-top: 7rem;
+            padding-left: 4rem;
+            padding-right: 4rem;
         }
     }
 
