@@ -58,6 +58,10 @@
         .service-image {
             margin-top: 2rem;
         }
+
+        .columns:last-child {
+            margin-top: 4rem;
+        }
     }
 
     @include desktop {
