@@ -1,11 +1,15 @@
 <template>
   <div>
+      <!--
       <Hero />
+      -->
       <Services />
+      <!--
       <CtaOne />
       <Projects />
       <Team />
       <Footer />
+      -->
   </div>
 </template>
 

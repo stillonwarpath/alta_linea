@@ -1,6 +1,6 @@
 <template>
-    <section class="container is-fullhd services">
-        <div class="columns">
+    <div class="container is-fullhd services">
+        <div class="columns is-gapless">
             <div class="column">
                 <h2 class="title is-2">
                     Apps mobile
@@ -16,7 +16,7 @@
                 </b-image>
             </div>
         </div>
-        <div class="columns web-app">
+        <div class="columns is-gapless web-app">
             <div class="column">
             <h2 class="title is-2">
                 Apps web
@@ -32,7 +32,7 @@
                 </b-image>
             </div>
        </div>
-    </section>
+    </div>
 </template>
 
 <script>
@@ -45,15 +45,14 @@
     
     @import '~bulma/sass/utilities/mixins';
 
-    @include mobile {
+    @include touch {
         .services {
             margin-top: 4rem;
         }
-        .title, .subtitle {
+        .title,.subtitle {
             padding-left: 1rem;
             padding-right: 1rem;
         }
-
     }
 
     @include desktop {
