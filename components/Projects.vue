@@ -1,16 +1,16 @@
 <template>
-    <section class="container is-fullhd">
+    <div class="container is-fullhd">
         <h2 class="title is-2">
             Proyectos
         </h2>
-        <div class="columns is-multiline">
+        <div class="columns is-gapless is-multiline">
             <Project
                 v-for="project in projects"
                 :key="project.id"
                 :project="project"         
              />
         </div>
-    </section>
+    </div>
 </template>
 
 <script>
@@ -53,7 +53,7 @@
     @import '~bulma/sass/utilities/mixins';
 
     @include mobile {
-        section {
+        .container {
             margin-top: 6rem;
             padding-left: 1rem;
             padding-right: 1rem;
@@ -61,7 +61,7 @@
     }
 
     @include desktop {
-        section {
+        .container {
             margin-top: 7rem;
         }
     }

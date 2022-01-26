@@ -5,8 +5,8 @@
       -->
       <Services />
       <CtaOne />
-      <!--
       <Projects />
+      <!--
       <Team />
       <Footer />
       -->
