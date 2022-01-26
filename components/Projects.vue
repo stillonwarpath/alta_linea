@@ -3,7 +3,7 @@
         <h2 class="title is-2">
             Proyectos
         </h2>
-        <div class="columns is-gapless is-multiline">
+        <div class="columns is-variable is-0-mobile is-8-desktop is-multiline">
             <Project
                 v-for="project in projects"
                 :key="project.id"
@@ -63,6 +63,8 @@
     @include desktop {
         .container {
             margin-top: 7rem;
+            padding-left: 4rem;
+            padding-right: 4rem;
         }
     }
 
