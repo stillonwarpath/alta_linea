@@ -1,5 +1,5 @@
 <template>
-    <section class="container is-full-hd services">
+    <section class="container is-fullhd services">
         <div class="columns">
             <div class="column">
                 <h2 class="title is-2">
@@ -10,6 +10,10 @@
                 </h5>
             </div>
             <div class="column">
+                <b-image
+                    src="https://picsum.photos/id/358/500"
+                    alt="Imagen desarrollo móvil">
+                </b-image>
             </div>
         </div>
         <div class="columns web-app">
@@ -22,6 +26,10 @@
             </h5>
             </div>
             <div class="column">
+                <b-image
+                    src="https://picsum.photos/id/358/314"
+                    alt="Imagen desarrollo móvil">
+                </b-image>
             </div>
        </div>
     </section>
@@ -40,6 +48,8 @@
     @include mobile {
         .services {
             margin-top: 4rem;
+        }
+        .title, .subtitle {
             padding-left: 1rem;
             padding-right: 1rem;
         }
