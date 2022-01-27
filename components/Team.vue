@@ -1,16 +1,16 @@
 <template>
-    <section class="container is-fullhd">
+    <div class="container is-fullhd">
         <h2 class="title is-2">
             Nosotros
         </h2>
-        <div class="columns">
+        <div class="columns is-variable is-0-mobile">
             <TeamMember 
                 v-for="teamMember in teamMembers"
                 :key="teamMember.id"
                 :teamMember="teamMember"
             />
         </div> 
-    </section>
+    </div>
 </template>
 
 <script>
@@ -42,8 +42,8 @@
 <style lang="scss" scoped>
     @import '~bulma/sass/utilities/mixins';
 
-    @include mobile {
-        section {
+    @include touch {
+        .container {
             margin-top: 6rem;
             padding-left: 1rem;
             padding-right: 1rem;
@@ -51,8 +51,13 @@
     }
 
     @include desktop {
-        section {
+        .container {
             margin-top: 7rem;
+            padding-left: 4rem;
+            padding-right: 4rem;
+        }
+        .columns {
+            margin-top: 4rem;
         }
     }
 </style>

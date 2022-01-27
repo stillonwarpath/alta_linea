@@ -1,13 +1,13 @@
 <template>
   <div>
-      <!--
+    <!--
       <Hero />
       -->
-      <Services />
-      <CtaOne />
-      <Projects />
-      <!--
-      <Team />
+    <Services />
+    <CtaOne />
+    <Projects />
+    <Team />
+    <!--
       <Footer />
       -->
   </div>
@@ -20,5 +20,4 @@ export default Vue.extend({
   name: 'IndexPage',
 })
 </script>
-<style lang="scss" scoped>
-</style>
+<style lang="scss" scoped></style>

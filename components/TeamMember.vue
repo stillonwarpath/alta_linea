@@ -18,4 +18,20 @@
 
 <style lang="scss" scoped>
 
+    @import '~bulma/sass/utilities/mixins';
+
+    .column {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    @include touch {
+        .column:first-child {
+            margin-top: 4rem;
+        }
+        .column:not(:first-child) {
+            margin-top: 3rem;
+        }
+    }
+
 </style>
