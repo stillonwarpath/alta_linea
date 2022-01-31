@@ -1,4 +1,19 @@
 <template>
+ <div>
+      <div v-rellax="{
+      speed: -6,
+      zindex: 10
+      }" class="layer-one">
+      I'm a slow and smooth
+    </div>
+    <div v-rellax="{
+      speed: 10,
+      zindex: 5
+      }" class="layer-two">
+      I'm a slow and smooth
+    </div>
+ </div>
+    <!--
      <div class="container is-fullhd">
     <section>
       <div class="is-flex is-flex-direction-column is-align-items-center first-title">
@@ -19,6 +34,7 @@
       </div>
     </section>
   </div>
+  -->
 </template>
 
 <script>
@@ -33,5 +49,17 @@
   }
   .second-title {
     margin-top: 6rem;
+  }
+  .layer-one {
+    height: 500px;
+    background-image: url("https://e1.pngegg.com/pngimages/298/527/png-clipart-snoopy.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .layer-two{ 
+    height: 500px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtNFMPhuk4WeILtAU_8O6wiWJy2q67BX8AOg&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 </style>

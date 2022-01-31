@@ -1,8 +1,6 @@
 <template>
   <div>
-    <!--
-      <Hero />
-      -->
+    <Hero />
     <Services />
     <CtaOne />
     <Projects />
