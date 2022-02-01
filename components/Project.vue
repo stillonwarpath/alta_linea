@@ -17,7 +17,9 @@
 
 <script>
     export default {
-        props:['project']
+        props: {
+            project: any
+        }
     }
 </script>
 
