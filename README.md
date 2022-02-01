@@ -1,5 +1,7 @@
 # alta_linea
 
+<img src="[https://codecov.io/gh/](https://codecov.io/gh/)<GitHub_name>/<GitHub_repo>/branch/master/graph/badge.svg?token=<your_token>" />
+
 ## Build Setup
 
 ```bash
