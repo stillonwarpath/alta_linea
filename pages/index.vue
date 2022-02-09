@@ -1,5 +1,16 @@
 <template>
-  <Tutorial />
+  <div>
+    <!--
+      <Hero />
+      -->
+    <Services />
+    <CtaOne />
+    <Projects />
+    <Team />
+    <!--
+      <Footer />
+      -->
+  </div>
 </template>
 
 <script lang="ts">
@@ -9,3 +20,4 @@ export default Vue.extend({
   name: 'IndexPage',
 })
 </script>
+<style lang="scss" scoped></style>
